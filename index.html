@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,47 +29,39 @@
 
 <body>
 
-    <nav>
-        <img id="logo" src="./assets/img/logo.png.webp" alt=" estore logo">
-        <div id="nav-links">
+    <header>
+        <a href="#" class="logo"><img src="./assets/img/logo.png.webp" alt="estore logo"></a>
+        <ul class="navmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact</a></li>
 
-            <span>Home</span>
-            <span>Categories</span>
-            <span>Latest</span>
-            <span>Blog</span>
-            <span>About</span>
-            <span>Pages</span>
-            <span>Contact</span>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
         </div>
-    </nav>
+    </header>
+    <section class="hero">
+        <div></div>
+        <div class="hero-text">
+
+            <h5 class="yellowtail-regular">60% Discount</h5>
+            <h1 class="playfair-display">Winter<br>Collection</h1>
+            <p class="playfair-display">Best Clothes Collection By 2024!</p>
+            <a href="#" class="hero-btn">Shop Now</a>
 
 
-    <section class="hero-container">
-        <div class="row">
-            <div id="hero-text">
-                <header>
-                    <span id="hero-text-one" class="yellowtail-regular"></span>
-                    <span id="hero-text-two" class="playfair-display"></span>
-                    <span id="hero-text-three" class="playfair-display"></span>
-                </header>
-                <button id="shop-button" class="poppins-bold"></button>
-                <div id="hero-img">
-                    <img src="./assets/img/hero_img.png" alt="model gasping">
-
-                </div>
-
-                <div class="hero-caption">
-                    <span>60% Discount</span>
-                    <h1> Winter<br>Collection</h1>
-                    <p> Best Clothes Collection By 2020!</p>
-                    <button>Shop Now</button>
-
-
-                </div>
-
-            </div>
         </div>
     </section>
+
     <section id="category">
         <div class="sub-header">
             <h2>Shop by Category</h2>
@@ -88,99 +85,144 @@
         </div>
     </section>
 
-    </div>
 
-    </section>
+    <section class="latest-products" id="latest">
+        <div class="center-text">
+            <h2>Our latest products</h2>
 
-    </div>
-    <section class="latest-products">
-        <div class="container">
-            <h2>Latest Products</h2>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="./assets/img/shorts.png" alt="Blue Shorts">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                    <span>Blue Shorts</span>
-                    <span>$40.00</span>
+        </div>
+        <div class="products">
+            <div class="row">
+                <img src="./assets/img/shorts.png" alt="blue shorts">
+                <div class="product-text">
+                    <h5>Sale</h5>
 
                 </div>
-                <div class="grid-item">
-                    <img src="./assets/img/green sweater.png" alt="Green Sweater">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                    <span>Green Sweater</span>
-                    <span>$40.00</span>
+                <div class="rating">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bxs-star-half'></i>
 
                 </div>
-                <div class="grid-item">
-                    <img src="./assets/img/yellow sweater.png" alt="Yellow Sweater">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                    <span>Yellow Sweater</span>
-                    <span>$40.00</span>
-
-                </div>
-                <div class="grid-item">
-                    <img src="./assets/img/grey sweater.png" alt="Grey Sweater">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                    <span>Grey Sweater</span>
-                    <span>$40.00</span>
-
-                </div>
-                <div class="grid-item">
-                    <img src="./assets/img/black joggers.png" alt="Black Joggers">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                    <span>Black Joggers</span>
-                    <span>$40.00</span>
-
-                </div>
-                <div class="grid-item">
-                    <img src="./assets/img/jean blazer.png" alt="Jean Blazer">
-
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-
-                    <span>Jean Blazer</span>
-                    <span>$40.00</span>
+                <div class="price">
+                    <h4>Blue Shorts</h4>
+                    <p>$20.00</p>
 
                 </div>
             </div>
+            <div class="row">
+                <img src="./assets/img/green sweater.png" alt="green sweater">
+                <div class="product-text">
+                    <h5>New</h5>
+
+                </div>
+                <div class="rating">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <div class="price">
+                    <h4>Green Sweater</h4>
+                    <p>$50.00</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="./assets/img/yellow sweater.png" alt="Yellow Sweater">
+                <div class="product-text">
+                    <h5>Hot</h5>
+
+                </div>
+                <div class="rating">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <div class="price">
+                    <h4>Yellow Sweater</h4>
+                    <p>$40.00</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="./assets/img/grey sweater.png" alt="grey sweater">
+                <div class="product-text">
+                    <h5>Sale</h5>
+
+                </div>
+                <div class="rating">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <div class="price">
+                    <h4>Grey Sweater</h4>
+                    <p>$17.00</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="./assets/img/black joggers.png" alt="black joggers">
+                <div class="product-text">
+                    <h5>New</h5>
+
+                </div>
+                <div class="rating">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <div class="price">
+                    <h4>Black Joggers</h4>
+                    <p>$25.00</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="./assets/img/jean blazer.png" alt="jean blazer">
+                <div class="product-text">
+                    <h5>Hot</h5>
+
+                </div>
+                <div class="rating">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bxs-star-half'></i>
+
+                </div>
+                <div class="price">
+                    <h4>Jean Blazer</h4>
+                    <p>$60.00</p>
+
+                </div>
+            </div>
+
         </div>
+
+
     </section>
-    <section>Best Product</section>
+    
+    
     <section>Best COllection</section>
-    <Section>Subscribe Newsletter</Section>
+    <Section>Subscribe Newsletter
+
+    </Section>
     <Section>Shipping and Payment</Section>
     <section>
         <div class="image-row">
@@ -191,13 +233,55 @@
             <img src="./assets/img/gallery5.jpg.webp" alt="Models Posing">
         </div>
     </section>
+    <footer class="footer">
+        <div class="contact-info">
+            <img src="./assets/img/logo.png.webp" alt="logo">
+            <p> 4536 Grand Street Marketview, <br> Ohio United States 43451</p>
+            <p> 0167854900</p>
+            <p>emmaanonoo@gmail.com</p>
 
-    <footer>
-        
+            <div class="social-icon">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instgram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
 
+            </div>          
+
+            <div class="second-info">
+                <h4>Support</h4>
+                <p>Contact us</p>
+                <p>About page</p>
+                <p>Size Guide</p>
+                <p>Shopping and Returns</p>
+                <p>Privacy</p>
+
+            </div>
+            <div class="third-info">
+                <h4>Shopping</h4>
+                <p>Men's Clothes</p>
+                <p>Women's clothes</p>
+                <p>Kid's Clothes</p>
+                <p>Accessories</p>
+                <p>Discount</p>
+
+            </div>
+            <div class="fourth-info">
+                <h4>Company</h4>
+                <p>About</p>
+                <p>Blog</p>
+                <p>Affiliate</p>
+                <p>Login</p>
+
+            </div>
+           
+        </div>
     </footer>
 
 
 </body>
 
+
+<script src="./javascript/index.js"></script>
 </html>
