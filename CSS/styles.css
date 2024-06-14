@@ -31,6 +31,7 @@
   background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   
+  
 }
 
 .main-nav .container {
@@ -40,6 +41,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px 20px;
+ 
   
 }
  
@@ -236,9 +238,9 @@
  }
 
  .product-text h5 {
-   position: absolute;
-   top: 13px;
-   left: 13px;
+  position: absolute;
+  top: 13px;
+  left: 13px;
    color: white;
    font-size: 12px;
    font-weight: 500px;
@@ -403,3 +405,87 @@
    font-size: 18px;
 
  }
+ .sub-header-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.blog {
+  display: block;
+  text-align: center;
+  padding-bottom: 130px;
+  padding-top: 0%;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  row-gap: 90%;
+  pa
+  /* padding-bottom: 150px; */
+
+}
+
+.blog-image-container {
+  /* display: flex;
+ flex-direction: row;
+  margin-left: 30px; */
+  /* overflow: hidden; */
+}
+
+#latest-news {
+  margin-top: 200px;
+
+}
+
+
+.continue-reading {
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+
+#wine-blog-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+
+}
+
+#eggs-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+
+}
+
+#wedding-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+}
+
+#wine-blog-font {
+  text-align: center;
+  margin: 0px 0px 20px;
+}
+
+#eggs-font {
+  text-align: center;
+  margin: 0px 0px 20px;
+}
+
+#wedding-font {
+  text-align: center;
+  margin: 0px 0px 20px;
+}
+
+#subtext-sentence {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
