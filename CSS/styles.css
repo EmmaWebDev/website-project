@@ -417,6 +417,7 @@
   text-align: center;
   padding-bottom: 130px;
   padding-top: 0%;
+  
 }
 
 .blog-container {
@@ -425,9 +426,7 @@
   justify-content: center;
   align-items: center;
   row-gap: 90%;
-  pa
-  /* padding-bottom: 150px; */
-
+ 
 }
 
 .blog-image-container {
@@ -438,7 +437,7 @@
 }
 
 #latest-news {
-  margin-top: 200px;
+  margin-top: 100px;
 
 }
 
