@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estore</title>
+    <!-- CSS and Fonts Links -->
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    
+
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -29,50 +31,61 @@
 
 <body>
 
+    <!-- Header Section -->
+
     <header>
-        <a href="#" class="logo"><img src="./assets/img/logo.png.webp" alt="estore logo"></a>
-        <ul class="navmenu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Latest</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Contact</a></li>
+        <nav class="main-nav">
+            <div class="container">
+                <a href="#" class="logo"><img src="./assets/img/logo.png.webp" alt="estore logo"></a>
 
-        </ul>
-        <div class="nav-icon">
-            <a href="#"><i class='bx bx-search'></i></a>
-            <a href="#"><i class='bx bx-user'></i></a>
-            <a href="#"><i class='bx bx-cart'></i></a>
-            <div class="bx bx-menu" id="menu-icon"></div>
+                <ul class="navmenu">
 
-        </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+                <div class="nav-icon">
+                    <a href="#"><i class='bx bx-search'></i></a>
+                    <a href="#"><i class='bx bx-user'></i></a>
+                    <a href="#"><i class='bx bx-cart'></i></a>
+                    <div class="bx bx-menu" id="menu-icon"></div>
+
+                </div>
+            </div>
+        </nav>
     </header>
+    <!-- Hero Section -->
     <section class="hero">
-        <div></div>
-        <div class="hero-text">
-
-            <h5 class="yellowtail-regular">60% Discount</h5>
-            <h1 class="playfair-display">Winter<br>Collection</h1>
-            <p class="playfair-display">Best Clothes Collection By 2024!</p>
-            <a href="#" class="hero-btn">Shop Now</a>
-
-
+        <div class="hero-container">
+            <div class="hero-img">
+                <img src="assets/img/hero_img.png" alt="girl gasping">
+            </div>
+            <div class="hero-text">
+                <h5 class="yellowtail-regular">60% Discount</h5>
+                <h1 class="playfair-display">Winter<br>Collection</h1>
+                <p class="playfair-display">Best Clothes Collection By 2024!</p>
+                <a href="#" class="hero-btn">Shop Now</a>
+            </div>
         </div>
     </section>
+    <!-- Categories Section -->
 
-    <section id="category">
+    <section class="category">
         <div class="sub-header">
             <h2>Shop by Category</h2>
-            <section class="model">
-                <div class="model-container">
-                    <div class="model-image-container">
-                        <img id="model-image" src="./assets/img/womens.jpg">
+        </div>
+        <div class="model">
+            <div class="model-container">
+                <div class="model-image-container">
+                    <img id="model-image" src="./assets/img/womens.jpg">
 
-
-                    </div>
                 </div>
+
                 <div class="model-image-container">
                     <img id="model-image" src="./assets/img/mens clothes.jpg">
 
@@ -81,11 +94,11 @@
                     <img id="model-image" src="./assets/img/winter clothes.jpg">
 
                 </div>
-
+            </div>
         </div>
     </section>
 
-
+    <!-- Latest Products Section -->
     <section class="latest-products" id="latest">
         <div class="center-text">
             <h2>Our latest products</h2>
@@ -215,15 +228,22 @@
 
         </div>
 
-
     </section>
-    
-    
-    <section>Best COllection</section>
-    <Section>Subscribe Newsletter
+
+    <!-- Signup Section -->
+    <Section>
+        <div class="signup-section">
+            <h2>SIGN UP and get 30% OFF*</h2>
+            <p>Sign up to our e-mails to be the first to hear about the latest trends, new arrivals and exclusive
+                offers. You can unsubscribe at any time. <a href="#">*T&Cs apply.</a></p>
+            <form class="signup-form">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Sign me up</button>
+            </form>
+        </div>
 
     </Section>
-    <Section>Shipping and Payment</Section>
+    <!-- Gallery Section -->
     <section>
         <div class="image-row">
             <img src="./assets/img/gallery1.jpg.webp" alt="Models Posing">
@@ -233,21 +253,20 @@
             <img src="./assets/img/gallery5.jpg.webp" alt="Models Posing">
         </div>
     </section>
+    <!-- Footer Section -->
     <footer class="footer">
         <div class="contact-info">
             <img src="./assets/img/logo.png.webp" alt="logo">
-            <p> 4536 Grand Street Marketview, <br> Ohio United States 43451</p>
-            <p> 0167854900</p>
-            <p>emmaanonoo@gmail.com</p>
 
             <div class="social-icon">
+
                 <a href="#"><i class='bx bxl-facebook'></i></a>
                 <a href="#"><i class='bx bxl-twitter'></i></a>
                 <a href="#"><i class='bx bxl-instgram'></i></a>
                 <a href="#"><i class='bx bxl-youtube'></i></a>
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
 
-            </div>          
+            </div>
 
             <div class="second-info">
                 <h4>Support</h4>
@@ -275,7 +294,7 @@
                 <p>Login</p>
 
             </div>
-           
+
         </div>
     </footer>
 
@@ -284,4 +303,7 @@
 
 
 <script src="./javascript/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 </html>
